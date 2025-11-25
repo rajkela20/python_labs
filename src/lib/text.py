@@ -49,3 +49,16 @@ if __name__ == "__main__":
     freq2 = count_freq(tokens2)
     print(freq2)
     print(top_n(freq2, 2))
+
+def get_words(text):
+    """Разбивает текст на слова (совместимость)"""
+    normalized = normalize(text)
+    return tokenize(normalized)
+
+def count_words(words):
+    """Подсчитывает количество слов (совместимость)"""
+    return len(words)
+
+def count_unique_words(words):
+    """Подсчитывает количество уникальных слов (совместимость)"""
+    return len(set(words))
