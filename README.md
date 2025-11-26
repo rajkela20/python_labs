@@ -8,3 +8,4 @@
 2. unique_sorted(nums: list[float | int]) -> list[float | int]
 3. flatten(mat: list[list | tuple]) -> list
    
+<img width="605" height="278" alt="Dusan lab02 -1" src="https://github.com/user-attachments/assets/f913aac6-94f0-4b4d-ad59-11682867219d" />
